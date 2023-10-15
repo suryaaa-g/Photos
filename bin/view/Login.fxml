@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <right>
+      <AnchorPane prefHeight="395.0" prefWidth="293.0" style="-fx-background-color: #27135b #27135b;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="tfUsername" layoutX="71.0" layoutY="185.0" promptText="username" style=" -fx-border-color: #0598ff; -fx-border-width: 2px 2px;" />
+            <Button fx:id="mLogIn" layoutX="85.0" layoutY="245.0" mnemonicParsing="false" onAction="#login" prefHeight="46.0" prefWidth="136.0" style="-fx-background-color: #FFFF;" text="Login" textFill="#27135b" />
+            <Text fill="WHITE" layoutX="93.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login" textAlignment="CENTER" wrappingWidth="107.81103515625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="307.0" style="-fx-background-color: #FFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#27135b" layoutX="103.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Library" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
